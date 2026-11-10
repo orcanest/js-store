@@ -1,2 +1,53 @@
-# js-store
-A simple JavaScript project for fetching and displaying products from a Fake API using Fetch API and Async/Await.
+# JavaScript Product Explorer
+
+یک پروژه تمرینی ساده با JavaScript خالص (Vanilla JavaScript) برای دریافت اطلاعات محصولات از یک Fake API و نمایش آن‌ها در صفحه وب.
+
+## امکانات
+
+- دریافت محصولات از API با استفاده از `fetch`
+- استفاده از `async/await` برای مدیریت درخواست غیرهم‌زمان
+- بررسی وضعیت پاسخ HTTP و مدیریت خطاها با `try/catch`
+- نمایش محصولات به‌صورت کارت
+- جست‌وجو در عنوان محصولات
+- نمایش وضعیت Loading، خطا و نتیجه خالی
+- طراحی واکنش‌گرا برای صفحه‌نمایش‌های مختلف
+
+## تکنولوژی‌ها
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Fetch API
+- DummyJSON Fake API
+
+## API
+
+اطلاعات محصولات از آدرس زیر دریافت می‌شوند:
+
+`https://dummyjson.com/products?limit=30`
+
+این API برای تمرین و توسعه پروژه‌های نمونه استفاده می‌شود.
+
+## اجرای پروژه
+
+1. مخزن را Clone یا فایل ZIP را دریافت کنید.
+2. پوشه پروژه را در ویرایشگر کد باز کنید.
+3. فایل `index.html` را با مرورگر اجرا کنید.
+
+پیشنهاد می‌شود برای اجرای محلی از افزونه Live Server در Visual Studio Code استفاده کنید.
+
+## ساختار پروژه
+
+```text
+javascript-product-explorer/
+├── index.html
+├── style.css
+├── app.js
+└── README.md
+```
+
+## هدف آموزشی
+
+هدف این پروژه تمرین مفاهیم پایه JavaScript، کار با API، دریافت و پردازش داده‌ها، مدیریت عملیات غیرهم‌زمان و نمایش داده‌ها در DOM است.
+
+این پروژه یک نمونه آموزشی است و برای استفاده تجاری طراحی نشده است.
